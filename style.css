@@ -67,7 +67,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 .circle {
@@ -131,8 +131,16 @@ body {
 }
 
 .time {
-  padding: 60px 0 0 0;
-  font-size: 60px;
+  padding: 0;
+  width: 270px;
+  height: 100px;
+  background-color: var(--primary-color);
+}
+
+canvas {
+	position: absolute;
+	width: 270px;
+	height: 100px;	
 }
 
 .date {
